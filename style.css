@@ -1,0 +1,43 @@
+body {
+  font-size: 30px;
+  font-family: 'calibri';
+  max-width: 500px;
+  margin: auto;
+  color: #507CA6;
+  background-color: #BCD8C1;
+}
+
+ul {
+  list-style-type:none;
+  font-size: 0;
+}
+
+button {
+  text-align: center;
+  text-decoration: none;
+}
+
+#calcDisplay {
+  height: 76px;
+  width: 234px;
+  font-size: 50px;
+  border: 1px solid #1C0E17;
+}
+
+#calcLayout li {
+  display: inline-block;
+}
+
+#calcLayout button {
+  font-size: 50px;
+  border: 1px solid #1C0E17;
+  background-color: #507CA6;
+  width: 80px;
+  height: 80px;
+  color: #E3E8CF;
+}
+
+#calcLayout button:hover {
+  background-color: #E3E8CF;
+  color: #1C0E17;
+}
